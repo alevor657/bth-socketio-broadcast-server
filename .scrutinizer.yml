@@ -1,0 +1,17 @@
+build:
+    tests:
+        override:
+            -
+                command: 'npm test'
+                coverage:
+                    file: 'coverage/clover.xml'
+                    format: 'clover'
+
+filter:
+    excluded_paths:
+        - "__tests__"
+        - "__mocks__"
+        - "coverage"
+        - "dist"
+        - "docker"
+        - "node_modules"

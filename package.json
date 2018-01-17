@@ -1,0 +1,29 @@
+{
+    "name": "socketio-chat-server",
+    "version": "1.0.0",
+    "description": "Socketio chatserver",
+    "main": "chatServer.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alevor657/socketio-chat-server"
+    },
+    "scripts": {
+        "test": "jest --coverage --forceExit"
+    },
+    "author": "Alexey V",
+    "license": "MIT",
+    "dependencies": {
+        "socket.io": "^2.0.4"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-jest": "^22.1.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "eslint": "^4.13.1",
+        "eslint-plugin-jest": "^21.5.0",
+        "jest": "^22.0.3"
+    }
+}
